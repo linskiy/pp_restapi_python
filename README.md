@@ -2,7 +2,6 @@
 ```
 api_key = 'xxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx'
 pp = PricePlan(user='priceplan', key=api_key)
-#get clients
 #сроздаем пользователя
 new_client = {
     "name": "pp_test1",
