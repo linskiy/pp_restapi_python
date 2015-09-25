@@ -1,5 +1,5 @@
 # PRICEPLAN REST API
-'''
+```
 api_key = 'xxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx'
 pp = PricePlan(user='priceplan', key=api_key)
 #get clients
@@ -23,4 +23,4 @@ s = pp.get('subscribes', http_method='GET', filter=subscribe_filter, fields='sub
 ​
 for i in s:
     print pp.get('subscribes/%s' % i['subscribe__id'], http_method='GET')['data']
-'''
+```
