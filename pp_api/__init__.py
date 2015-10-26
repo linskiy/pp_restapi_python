@@ -165,7 +165,7 @@ class PricePlan(_PricePlanCore):
     def getVariables(self):
         return self._get('variables', timeout=DEFAULT_TIMEOUT, http_method="GET")['data']
 
-    #получаем список едениц
+    #получаем список единиц
     def getMeasures(self):
         return self._get('measures', timeout=DEFAULT_TIMEOUT, http_method="GET")['data']
 

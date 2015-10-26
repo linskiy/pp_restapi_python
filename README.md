@@ -1,8 +1,8 @@
 # PRICEPLAN REST API
 ```
 api_key = 'xxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx'
-pp = PricePlan(user='priceplan', key=api_key)
-#сроздаем пользователя
+pp = PricePlan(user='username', key=api_key)
+#роздаем пользователя
 new_client = {
     "name": "pp_test1",
     "type": 1,
